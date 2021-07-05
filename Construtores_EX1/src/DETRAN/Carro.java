@@ -11,6 +11,7 @@ package DETRAN;
  */
 public class Carro {
     //
+    ///
     private String modelo, fabricante, anoFabricacao, cor, ultimaVistoria, nomeMotorista;
     private int chassi, cnhMotorista, numDocumento;
     private boolean licenciado;
