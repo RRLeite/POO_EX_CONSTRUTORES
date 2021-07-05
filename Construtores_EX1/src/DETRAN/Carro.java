@@ -10,10 +10,10 @@ package DETRAN;
  * @author roberto.leite
  */
 public class Carro {
-    
-    String modelo, fabricante, anoFabricacao, cor, ultimaVistoria, nomeMotorista;
-    int chassi, cnhMotorista, numDocumento;
-    boolean licenciado;
+    //
+    private String modelo, fabricante, anoFabricacao, cor, ultimaVistoria, nomeMotorista;
+    private int chassi, cnhMotorista, numDocumento;
+    private boolean licenciado;
 
     public Carro(String modelo, String fabricante, String anoFabricacao, String cor, String nomeMotorista, int chassi, int cnhMotorista) {
         this.modelo = modelo;
